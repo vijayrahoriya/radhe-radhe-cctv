@@ -1,0 +1,51 @@
+/* header {
+    background: #eecaca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+} */
+
+/* .btn{
+    margin: 10px;
+} */
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    header {
+        font-size: 22px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .services, .products {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    button, a.whatsapp-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
